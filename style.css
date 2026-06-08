@@ -4,22 +4,31 @@
 
 /* 1. Check the ratio of the background color and the color of the text.
     We want the ratio 4:1 or higher. What is it? */
-
+/* The ratio is 1.02:1 which is very low and does not meet the 4:1 requirement. */
 
 /* 2. Change the background color so that it contrasts well with the text. 
     What color do you think would provide a good contrast with red? 
+    Light Blue
     (Hint: Remember lighter colors contrast best with darker colors and vice versa). */
 
-/* 3. Recheck the ratio now. Afterwards, go to the HTML file.*/
+/* 3. Recheck the ratio now. Afterwards, go to the HTML file.
+    4:1 now*/
 
 body {
-    background-color: #d93f3f;
+    background-color: #E7F9FD;
     color: #eb2626;
 }
 
 
 .food-pic {
-    width: 200px;
+    width: 300px;
+    border: #eb2626 solid 5px;
+    border-radius: 30px;
+    margin: 20px;
+    shadow: 5px 5px 10px #eb2626;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .title {
